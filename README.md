@@ -1,3 +1,3 @@
 #Swipe To Reveal Details
 
-![Alt Text](https://github.com/dancing-koala/{repo}/raw/master/path/to/image.gif)
+![Visual demo](https://github.com/dancing-koala/swipe-to-reveal-details/raw/master/swipe_to_reveal_details.gif)
