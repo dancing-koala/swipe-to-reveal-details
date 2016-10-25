@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_backview_content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/app_margin_s">
+
+    <TextView
+        style="@style/SwipeRevealDetails.BackView.Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lorem_s"
+        android:textSize="@dimen/app_text_s" />
+
+    <TextView
+        android:id="@+id/tv_item_number"
+        style="@style/SwipeRevealDetails.BackView.Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="@dimen/app_margin_s"
+        android:text="NO. 54687"
+        android:textSize="@dimen/app_text_s" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.dancing_koala.swipetorevealdetails.ui.views.CircleView
+            android:id="@+id/cirv_item_circle_1"
+            android:layout_width="@dimen/srd_star_icon_size"
+            android:layout_height="@dimen/srd_star_icon_size"
+            android:background="@color/gray_blueish" />
+
+        <com.dancing_koala.swipetorevealdetails.ui.views.CircleView
+            android:id="@+id/cirv_item_circle_2"
+            android:layout_width="@dimen/srd_star_icon_size"
+            android:layout_height="@dimen/srd_star_icon_size"
+            android:layout_marginLeft="-4dp"
+            android:layout_toRightOf="@id/cirv_item_circle_1" />
+
+        <com.dancing_koala.swipetorevealdetails.ui.views.CircleView
+            android:id="@+id/cirv_item_circle_3"
+            android:layout_width="@dimen/srd_star_icon_size"
+            android:layout_height="@dimen/srd_star_icon_size"
+            android:layout_marginLeft="-4dp"
+            android:layout_toRightOf="@id/cirv_item_circle_2"
+            android:background="@color/blue" />
+
+        <ImageView
+            android:layout_width="@dimen/srd_star_icon_size"
+            android:layout_height="@dimen/srd_star_icon_size"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_star_rate_white_18dp"
+            android:tint="@color/gray" />
+
+    </RelativeLayout>
+
+</LinearLayout>

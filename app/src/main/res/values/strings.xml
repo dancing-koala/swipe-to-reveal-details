@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Swipe to reveal details</string>
+
+    <!-- DEVEL -->
+    <string name="dummy_content">Dummy content</string>
+
+    <string name="lorem_s">Lorem ipsum dolor sir amet</string>
+
+    <string name="lorem_m">
+        Lorem ipsum dolor sir amet
+        lorem ipsum dolor sit amet
+        lorem ipsum dolor sit amet
+        lorem ipsum dolor sit amet.
+    </string>
+
+    <string name="lorem_l">
+        Lorem ipsum dolor sir amet
+        lorem ipsum dolor sit amet
+        lorem ipsum dolor sit amet
+        lorem ipsum dolor sit amet.
+        Lorem ipsum dolor sir amet
+        lorem ipsum dolor sit amet
+        lorem ipsum dolor sit amet
+        lorem ipsum dolor sit amet.
+        Lorem ipsum dolor sir amet
+        lorem ipsum dolor sit amet
+        lorem ipsum dolor sit amet
+        lorem ipsum dolor sit amet.
+    </string>
+</resources>

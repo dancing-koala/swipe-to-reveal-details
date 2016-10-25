@@ -1,0 +1,11 @@
+<resources>
+    <declare-styleable name="SwipeToRevealLayout">
+        <attr name="backview_inner_margin_h" format="dimension" />
+        <attr name="backview_inner_margin_v" format="dimension" />
+        <attr name="frontview_width" format="dimension" />
+        <attr name="frontview_height" format="dimension" />
+        <attr name="corner_radius" format="dimension" />
+        <attr name="layout_frontview" format="reference" />
+        <attr name="layout_backview" format="reference" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,12 @@
+<com.dancing_koala.swipetorevealdetails.ui.views.SwipeToRevealLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    app:backview_inner_margin_h="@dimen/srd_default_backview_inner_margin_h"
+    app:backview_inner_margin_v="@dimen/srd_default_backview_inner_margin_v"
+    app:corner_radius="@dimen/srd_corner_radius"
+    app:frontview_height="@dimen/srd_default_frontview_h"
+    app:frontview_width="@dimen/srd_default_frontview_w"
+    app:layout_backview="@layout/strd_item_back_view"
+    app:layout_frontview="@layout/strd_item_front_view" />

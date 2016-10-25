@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/srd_default_frontview_w"
+    android:layout_height="@dimen/srd_default_frontview_h">
+
+    <ImageView
+        android:id="@+id/iv_item_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/lorem_s"
+        android:scaleType="centerCrop"
+        android:src="@drawable/landscape_1" />
+
+    <TextView
+        android:id="@+id/tv_item_name"
+        style="@style/SwipeRevealDetails.FrontView.Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:gravity="center"
+        android:text="@string/dummy_content"
+        android:textAllCaps="true"
+        android:textSize="@dimen/app_text_xl" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:padding="@dimen/app_margin_s">
+
+        <TextView
+            android:id="@+id/tv_left_info"
+            style="@style/SwipeRevealDetails.FrontView.Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/iv_place_icon"
+            android:gravity="center"
+            android:text="@string/dummy_content"
+            android:textSize="@dimen/app_text_s" />
+
+        <ImageView
+            android:id="@+id/iv_place_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_place_white_24dp" />
+
+        <TextView
+            android:id="@+id/tv_right_info"
+            style="@style/SwipeRevealDetails.FrontView.Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/iv_place_icon"
+            android:gravity="center"
+            android:text="@string/dummy_content"
+            android:textSize="@dimen/app_text_s" />
+
+    </RelativeLayout>
+</FrameLayout>

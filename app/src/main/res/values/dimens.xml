@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_margin_xl">32dp</dimen>
+    <dimen name="app_margin_l">24dp</dimen>
+    <dimen name="app_margin_xm">16dp</dimen>
+    <dimen name="app_margin_m">12dp</dimen>
+    <dimen name="app_margin_xs">8dp</dimen>
+    <dimen name="app_margin_s">4dp</dimen>
+
+    <dimen name="app_text_xl">24sp</dimen>
+    <dimen name="app_text_l">22sp</dimen>
+    <dimen name="app_text_xm">18sp</dimen>
+    <dimen name="app_text_m">16sp</dimen>
+    <dimen name="app_text_xs">14sp</dimen>
+    <dimen name="app_text_s">12sp</dimen>
+
+    <!-- ======================= -->
+    <!-- SWIPE TO REVEAL DETAILS -->
+    <!-- ======================= -->
+    <dimen name="srd_default_backview_inner_margin_h">16dp</dimen>
+    <dimen name="srd_default_backview_inner_margin_v">16dp</dimen>
+
+    <dimen name="srd_default_frontview_w">200dp</dimen>
+    <dimen name="srd_default_frontview_h">300dp</dimen>
+    <dimen name="srd_corner_radius">8dp</dimen>
+
+    <dimen name="srd_star_icon_size">24dp</dimen>
+</resources>
